@@ -1,4 +1,4 @@
-from twilio.rest import TwilioRestClient
+from twilio.rest import TwilioRestClient # inside ""twilio" there is a folder called "rest" and inside that folder is a class called "TwilioRestClient"
  
 # Your Account Sid and Auth Token from twilio.com/user/account
 account_sid = "AC8238efca904dd9e838cdea89dc2db87a"
