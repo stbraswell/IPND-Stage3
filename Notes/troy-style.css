@@ -8,7 +8,7 @@
 body {
 	background: url("sunsetHMB2.jpg") no-repeat fixed;
     background-size: cover;
-    opacity: 0.8;
+    opacity: 1;
     border-radius: 15px; 
     color: white;
     padding: 20px 10px;
@@ -89,5 +89,13 @@ h4{		/* TOC Heading */
     /*background-color: inherit;*/
     float: left;
     width: 33%;
+}
+.popover {
+    background-color: #fff;
+    opacity: 1;
+    border-radius: inherit; /* Inherited from <body>*/
+    padding: 10px;
+    margin: 10px;
+    color: black;
 }
 
