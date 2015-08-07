@@ -6,8 +6,33 @@
   <meta charset="UTF-8">
 
   <title>Troy's Notes</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="troy-style.css">
-	
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<style type="text/css" media="screen">
+	/* Popover Shape */
+	.popover{
+    	max-width: 1000px; /* Max Width of the popover (depending on the container!) */
+    	border: 2px solid #81f358;
+	}
+	/* Popover Header */
+	.popover-title {
+	    background-color: #48a8c7; 
+	    color: #FFFFFF; 
+	    font-size: 28px;
+	    text-align:center;
+	}
+
+	/* Popover Body */
+	.popover-content {
+	    background-color: #e3e8f3;
+	    color: #FFFFFF;
+	    padding: 25px;
+}
+</style>
 </head>
 
 <body>
@@ -688,6 +713,13 @@
 		</div>	
 		<br style="clear:both;"/>
 	</div> -->
+<script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover({
+    	html:true
+    });   
+});
+</script>
 </body>
 
 </html>
