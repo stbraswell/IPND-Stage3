@@ -57,12 +57,38 @@ h3{			/*Subsection Heading*/
     color: white;
 
 }
-h4{		/* TOC Heading */
+/* TOC Heading */
+h4{		
     text-align: center;
     color: #598ed6; 
     font-size: 1.6em;
     padding: 10px;
     margin: 10px;
+}
+/* Popover Shape */
+.popover{
+    max-width: 1000px; /* Max Width of the popover (depending on the container!) */
+    border: 2px solid #81f358;
+    border-radius: 20px;
+}
+/* Popover Header */
+.popover-title {
+    background-color: #48a8c7; 
+    color: #FFFFFF; 
+    font-size: 28px;
+    text-align:center;
+}
+/* Popover Body */
+.popover-content {
+    
+    background-color: #e3e8f3;
+    color: #FFFFFF;
+    padding: 25px;
+}
+.btn-info {
+    color: #fff;
+    background-color: #468499;
+    border-color: #46b8da;
 }
 .TOC {			/*This class sets the formatting for each section*/
     background-color: #fff;

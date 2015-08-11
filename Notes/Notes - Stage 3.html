@@ -12,27 +12,7 @@
   <link rel="stylesheet" href="troy-style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<style type="text/css" media="screen">
-	/* Popover Shape */
-	.popover{
-    	max-width: 1000px; /* Max Width of the popover (depending on the container!) */
-    	border: 2px solid #81f358;
-	}
-	/* Popover Header */
-	.popover-title {
-	    background-color: #48a8c7; 
-	    color: #FFFFFF; 
-	    font-size: 28px;
-	    text-align:center;
-	}
 
-	/* Popover Body */
-	.popover-content {
-	    background-color: #e3e8f3;
-	    color: #FFFFFF;
-	    padding: 25px;
-}
-</style>
 </head>
 
 <body>
@@ -606,13 +586,14 @@
 		        </ul>
 		    </div>
 		</div>
-		<h2 id="stage-3">Stage 3: Programming with objects</h2>
-		<div class="lesson">
-			<div id="stage-3-1">
-			    <h3>Structured Data: Definitions</h3>
-			    <div>
-			        defs<br>
-			        <ul>
+	</div>
+	<h2 id="stage-3">Stage 3: Programming with objects</h2>
+	<div class="lesson">
+		<div id="stage-3-1">
+			<h3>Structured Data: Definitions</h3>
+			<div>
+			    defs<br>
+			    <ul>
 			            <li>Class - A neatly packaged box that puts things together really well. A class is like a blueprint of a building - it can be used to build multiple buildings. A user-defined prototype for an object that defines a set of attributes that characterize any object of the class. The attributes are data members (class variables and instance variables) and methods, accessed via dot notation.</li>
 			            <li>Instance/Object - A unique instance of a data structure that's defined by its class. An object comprises both data members (class variables and instance variables) and methods. An individual object of a certain class. An object obj that belongs to a class Circle, for example, is an instance of the class Circle.</li>
 			            <li>Constructor - When an instance is created, the classes constructor is called (__init__)</li>
@@ -633,7 +614,6 @@
 			            <li>Python has a standard library which is very extensive, offering a wide range of facilities. The library contains built-in modules (written in C) that provide access to system functionality such as file I/O that would otherwise be inaccessible to Python programmers, as well as modules written in Python that provide standardized solutions for many problems that occur in everyday programming.</li>
 			            <li>There are many external libraries that provide additional modules, some can be found on the python website.</li>
 			            <li><a href=" https://docs.python.org/2/library/"> Examples of Things to know about Python</a></li>
-			            <li> 
 			        </ul>
 			    </div>
 			</div>
@@ -642,29 +622,35 @@
 			    <div>
 			    	<li>Drawing with classes - Uses Turtle to ease into classes 
 			    		<ul>
-							<li><a href="#" data-toggle="popover" data-trigger="hover" title="Popover Header"  data-content="<embed src='https://docs.google.com/document/d/1fzjO_9WjyjPhpKXD0s_HPpJFtt73xcvd6alzpzOpBpo/pub?embedded=true' width='800' height='300'>">Draw a circle using a square</a>
+			    			<li><button class='btn btn-info' data-popover="true" title= "Draw a circle using a square" data-content= "<embed src='https://docs.google.com/document/d/1aTzGTYNM3XB_PkMmY8Mun_8e-LjW0p7-IGi84buuqA8/pub?embedded=true' width='800' height='300'>"><span class="glyphicon glyphicon-eye-open"></span> Draw a circle using a square</button>
 							</li>
 			    		</ul>
 			    	</li>
 			    	<li>Using external libraries
 			    		<ul>
-			    			<li>Send a text message via Python using twilo</li>
-			    			<li>Demonstrates using the from...import Class</li>
+			    			<li><button class='btn btn-info' data-popover="true" data-content= "<embed src='https://docs.google.com/document/d/1aTzGTYNM3XB_PkMmY8Mun_8e-LjW0p7-IGi84buuqA8/pub?embedded=true' width='800' height='300'>"><span class="glyphicon glyphicon-eye-open"></span> Send a text message via Python using twilo</button>
+			    			</li>
+			    			<br>
+			    			<li><button class='btn btn-info' data-popover="true" data-content= "<embed src='https://docs.google.com/document/d/1aTzGTYNM3XB_PkMmY8Mun_8e-LjW0p7-IGi84buuqA8/pub?embedded=true' width='800' height='300'>"><span class="glyphicon glyphicon-eye-open"></span> Demonstrates using the from...import Class</button>
+			    			</li>
 			    		</ul>
 			    	</li>	
 			    	<li>Profanity Editor
 			    		<ul>
-			    			<li> Demonstrates classes within the urllib module</li>
+			    			<li> <button class='btn btn-info' data-popover="true" data-content= "<embed src='https://docs.google.com/document/d/1aTzGTYNM3XB_PkMmY8Mun_8e-LjW0p7-IGi84buuqA8/pub?embedded=true' width='800' height='300'>"><span class="glyphicon glyphicon-eye-open"></span> Demonstrates classes within the urllib module</button> 
+			    			</li>
 			    		</ul>
 			    	</li>
 			    	<li> Movie Data Base
 			    		<ul>
-			    			<li> Demonstrates using custom classes</li>
+			    			<li> <button class='btn btn-info' data-popover="true" data-content= "<embed src='https://docs.google.com/document/d/1aTzGTYNM3XB_PkMmY8Mun_8e-LjW0p7-IGi84buuqA8/pub?embedded=true' width='800' height='300'>"><span class="glyphicon glyphicon-eye-open"></span> Demonstrates using custom classes</button> 
+			    			</li>
 			    		</ul>
 			    	</li>
 			    	<li> Inheritance
 			    		<ul>
-			    			<li> A Quick overview of how inheritance works</li>
+			    			<li> <button class='btn btn-info' data-popover="true" data-content= "<embed src='https://docs.google.com/document/d/1aTzGTYNM3XB_PkMmY8Mun_8e-LjW0p7-IGi84buuqA8/pub?embedded=true' width='800' height='300'>"><span class="glyphicon glyphicon-eye-open"></span> A Quick overview of how inheritance works</button> 
+			    			</li>
 			    		</ul>
 			    	</li>
 			    </div>
@@ -681,7 +667,6 @@
 			    </div>	
 			</div>
 		</div>
-
 	</div>
 	<h2 id="reflinks">Reference Links</h2>
 	<div class="lesson">
@@ -714,12 +699,38 @@
 		</div>	
 		<br style="clear:both;"/>
 	</div> -->
-<script>
+<!-- <script>
 $(document).ready(function(){
     $('[data-toggle="popover"]').popover({
     	html:true
     });   
 });
+</script> -->
+<script>
+var originalLeave = $.fn.popover.Constructor.prototype.leave;
+$.fn.popover.Constructor.prototype.leave = function(obj){
+  var self = obj instanceof this.constructor ?
+    obj : $(obj.currentTarget)[this.type](this.getDelegateOptions()).data('bs.' + this.type)
+  var container, timeout;
+
+  originalLeave.call(this, obj);
+
+  if(obj.currentTarget) {
+    container = $(obj.currentTarget).siblings('.popover')
+    timeout = self.timeout;
+    container.one('mouseenter', function(){
+      //We entered the actual popover – call off the dogs
+      clearTimeout(timeout);
+      //Let's monitor popover content instead
+      container.one('mouseleave', function(){
+        $.fn.popover.Constructor.prototype.leave.call(self, self);
+      });
+    })
+  }
+};
+
+
+$('body').popover({ selector: '[data-popover]', trigger: 'click hover', html: 'true', placement: 'auto', delay: {show: 50, hide: 400}});
 </script>
 </body>
 
