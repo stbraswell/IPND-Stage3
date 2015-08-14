@@ -46,8 +46,10 @@ h2 {		/*Section Heading*/
     border-radius: inherit;
     color: white;
 	text-align: center;
-    margin: 10px;
-	font-size: 50px
+    /*padding-left: 10px;*/
+    /*margin: 10px;*/
+	font-size: 50px;
+    width: 100%;
 }
 h3{			/*Subsection Heading*/
     padding-left: 10px;
@@ -55,6 +57,8 @@ h3{			/*Subsection Heading*/
     opacity: 0.8;
     border-radius: 5px; 
     color: white;
+    margin-left: 10px;
+    margin-right: 10px;
 
 }
 /* TOC Heading */
@@ -101,11 +105,21 @@ h4{
     background-color: #fff;
     opacity: 0.8;
 	border-radius: inherit; /* Inherited from <body>*/
-    padding: 10px;
+    /*padding: 10px;*/
     margin: 10px;
+    border-bottom: 10px;
 	color: black;
 }
-
+.lesson_refs {
+    background-color: #fff;
+    opacity: 0.8;
+    border-radius: inherit; /* Inherited from <body>*/
+    /*padding: 10px;*/
+    margin: 10px;
+    border-bottom: 10px;
+    color: black;
+    font-size: xx-small;
+}
 .codeex {
     text-align: left;
 	padding-left: 20%;
@@ -124,4 +138,7 @@ h4{
     margin: 10px;
     color: black;
 }
-
+.info {
+    margin-left: 10px;
+    margin-right: 10px;
+}
