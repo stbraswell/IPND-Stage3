@@ -30,7 +30,7 @@ ul {
 }
 
 li {
-    font-size: 20px;
+    /*font-size: 20px;*/
     line-height: 1.5em; 
     list-style-type: circle;
 }
@@ -50,6 +50,7 @@ h2 {		/*Section Heading*/
     /*margin: 10px;*/
 	font-size: 50px;
     width: 100%;
+	font-weight: bold;
 }
 h3{			/*Subsection Heading*/
     padding-left: 10px;
@@ -59,22 +60,19 @@ h3{			/*Subsection Heading*/
     color: white;
     margin-left: 10px;
     margin-right: 10px;
+	font-weight: bold;
 
 }
 /* TOC Heading */
 h4{		
     text-align: center;
     color: #598ed6; 
-    font-size: 1.6em;
+    font-size: 2em;
+	font-weight: bold;
     padding: 10px;
     margin: 10px;
 }
-/* Popover Shape */
-.popover{
-    max-width: 1000px; /* Max Width of the popover (depending on the container!) */
-    border: 2px solid #81f358;
-    border-radius: 20px;
-}
+
 /* Popover Header */
 .popover-title {
     background-color: #48a8c7; 
@@ -118,7 +116,7 @@ h4{
     margin: 10px;
     border-bottom: 10px;
     color: black;
-    font-size: xx-small;
+    font-size: smaller;
 }
 .codeex {
     text-align: left;
@@ -131,13 +129,21 @@ h4{
     width: 33%;
 }
 .popover {
+	 max-width: 1000px; /* Max Width of the popover (depending on the container!) */
+    border: 2px solid #81f358;
+    border-radius: 20px;
     background-color: #fff;
     opacity: 1;
-    border-radius: inherit; /* Inherited from <body>*/
     padding: 10px;
     margin: 10px;
     color: black;
 }
+/* Popover Shape */
+/*.popover{
+    max-width: 1000px; /* Max Width of the popover (depending on the container!) 
+    border: 2px solid #81f358;
+    border-radius: 20px; 
+}*/
 .info {
     margin-left: 10px;
     margin-right: 10px;
