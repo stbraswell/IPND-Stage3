@@ -86,7 +86,8 @@
 			<p> 
 				The Internet is a collection of computers that talk to each other. The web is a collection of
 		  		HTML docs.  When a user clicks on a link, that link is essentially an address to an HTML file on a server.
-		  		The browser translates that HTML file into a webpage that the user sees.  HTTP is the main protocol of the web.  HTML stands for Hypetext Markup Language.
+		  		The browser translates that HTML file into a webpage that the user sees.  HTTP is the main protocol of the web.  
+				HTML stands for Hypetext Markup Language.
 			</p>
 		</div>
 		<div id="stage-0-2">
@@ -94,7 +95,11 @@
 		</div>
 		<div class="info">
 			<p>	
-				Tags are instructions to the computer and are not seen outside of the code <em> (e.g. on the webpage).</em> Elements are the complete tag, so from opening to closing.  These are also the "markup". Some tags need to be closed, if these types of tags are not closed, then the tag will apply to all text following the opening of the tag.Other tags do not need to be closed, these are called "Void Tags".  Tags can also have attributes.  These attributes give more dimension to a tag, such as linking a webpage to text.
+				Tags are instructions to the computer and are not seen outside of the code <em> (e.g. on the webpage).
+				</em> Elements are the complete tag, so from opening to closing.  These are also the "markup". 
+				Some tags need to be closed, if these types of tags are not closed, then the tag will apply to all text 
+				following the opening of the tag.Other tags do not need to be closed, these are called "Void Tags".  
+				Tags can also have attributes.  These attributes give more dimension to a tag, such as linking a webpage to text.
 			</p>
 		</div>
 		<div id="stage-0-3">
@@ -102,8 +107,8 @@
 		</div>
 		<div class="info">
 			<p>
-				Whitespace in HTML doesn't translate 1:1 on the webpage.  Spaces seem to be 1:1, but multiple spaces or carrige returns do not.  For example,
-		  		this is what 10 spaces looks like "          ". 
+				Whitespace in HTML doesn't translate 1:1 on the webpage.  Spaces seem to be 1:1, but multiple spaces or carrige returns do not.  
+				For example, this is what 10 spaces looks like "          ". 
 			</p>
 		</div>
 		<div id="stage-0-4">
@@ -112,7 +117,9 @@
 		<div class="info">
 			<p>
 				There are inline and block elements.  Block elements seem to protect their contents by fencing them, like the paragraph element.
-				Block elements are displayed with a line break while inline elements are not. All elements are rendered as boxes, and only some block elements can be container elements for other block elements. For instance, a &lt;div&gt; can have a &lt;p&gt;, an &lt;ol&gt;, a &lt;ul&gt;, another &lt;div&gt;, but an &lt;ol&gt; or &lt;ul&gt; cannot have a &lt;p&gt; or a &lt;br&gt;.
+				Block elements are displayed with a line break while inline elements are not. All elements are rendered as boxes, and only some block 
+				elements can be container elements for other block elements. For instance, a &lt;div&gt; can have a &lt;p&gt;, an &lt;ol&gt;, a &lt;ul&gt;,
+				another &lt;div&gt;, but an &lt;ol&gt; or &lt;ul&gt; cannot have a &lt;p&gt; or a &lt;br&gt;.
 			</p>
 		</div>
 		<div id="stage-0-5">
@@ -144,7 +151,9 @@
 		</div>
 		<div class="info">
 			<p>
-				This is exactly what it sounds like.  You can essentially draw out a web page as a tree; meaning a "div" can branch into a "header" and a "paragraph".  Each of those branches can branch even further depending on what is nested inside of them.  Elements define what the branches are and these are nested in other elements.
+				This is exactly what it sounds like.  You can essentially draw out a web page as a tree; meaning a "div" can branch into a "header" and a "paragraph".  
+				Each of those branches can branch even further depending on what is nested inside of them.  Elements define what the branches are and these are 
+				nested in other elements.
 			</p>
 		</div>
 		<div id="stage-1-3">
@@ -152,7 +161,8 @@
 		</div>
 		<div class="info">
 			<p>
-				If you look at the HTML code of a web page the structure looks like a wave or zigzags.  This kind of structure helps when reading the code to see where sections start and end.  While some editors seem to gently create this structure while you are writing the code, it is not a given.
+				If you look at the HTML code of a web page the structure looks like a wave or zigzags.  This kind of structure helps when reading the code 
+				to see where sections start and end.  While some editors seem to gently create this structure while you are writing the code, it is not a given.
 			</p>
 		</div>
 		<div id="stage-1-4">
@@ -192,10 +202,13 @@
 		<div class="info">
 			<p>
 				CSS allows you to give your webpage style.  This is a separate file that the browser will read and link to the HTML file.
-				Throughout the code you have many different "blocks", you can assign these blocks classes and use the CSS file to give that class a unique style.  This is helpful because this allows you to set a style easily for different blocks, without having to repeat the style setup each time.
+				Throughout the code you have many different "blocks", you can assign these blocks classes and use the CSS file to give that class a unique style.  
+				This is helpful because this allows you to set a style easily for different blocks, without having to repeat the style setup each time.
 			</p>
 			<p>
-				There is definately a <em><b>LOT</b></em> more to learn about CSS.  It is clear from the last segment that CSS is a powerful tool and will take time to learn (most likely from playing and failing) <img src="http://i.imgur.com/uZfdhRl.gif" width="30" height="30" alt="Oops, does not compute!">
+				There is definately a <em><b>LOT</b></em> more to learn about CSS.  It is clear from the last segment that CSS is a powerful tool 
+				and will take time to learn (most likely from playing and failing) <img src="http://i.imgur.com/uZfdhRl.gif" width="30" height="30" 
+				alt="Oops, does not compute!">
 			</p>
 			<div>
 				Things to note about CSS
@@ -204,8 +217,10 @@
 					<li>You can also define your styles in the html file itself by adding &lt;style&gt;&lt;/style&gt; in the head section.</li>
 					<li>If the section in CSS starts with a "." then it is defining a Class.</li>
 					<li>If the selector is a tag without the brackets (i.e. "em" instead of &lt;em&gt;), then it is defining the style of that tag.
-					<li>Things that can be inherited: color, font, letter spacing, line height, list style, text alignment, text indentation, text transform, visibility, white space and word spacing (probably others?)</li>
-					<li>Things that are not inherited: background, border, display, float and clear, height and width, margin, min/max height & width, outline, overflow, padding, position, text decoration, vertical alignment and z index (probably others?)</li>
+					<li>Things that can be inherited: color, font, letter spacing, line height, list style, text alignment, text indentation, text transform, 
+					visibility, white space and word spacing (probably others?)</li>
+					<li>Things that are not inherited: background, border, display, float and clear, height and width, margin, min/max height & width, 
+					outline, overflow, padding, position, text decoration, vertical alignment and z index (probably others?)</li>
 					<li>"The Box Model" - Margin -> Border -> Padding -> Content</li>
 				</ul>
 			</div>
@@ -240,18 +255,21 @@
 			<h3>Programming</h3>
 		</div>
 		<div class="info">
-			Programs tell computers what to do.  These programs are written in programming languages (like Python), which are special languages that are clear and precise.  "Natural" languages (like English) would not be great programming languages due to their ambiguity and verbosity. 
+			Programs tell computers what to do.  These programs are written in programming languages (like Python), which are special languages 
+			that are clear and precise.  "Natural" languages (like English) would not be great programming languages due to their ambiguity and verbosity. 
 		</div>
 		<div id="stage-2-2">
 			<h3> Python</h3>
 		</div>
 		<div class="info">
-			Python is a programming language which is run in an <em>interpreter</em>.  The <em>interpreter</em> runs the program, interprets them, then executes the program that was written in python by running the program in a language that the computer can understand.
+			Python is a programming language which is run in an <em>interpreter</em>.  The <em>interpreter</em> runs the program, interprets them, 
+			then executes the program that was written in python by running the program in a language that the computer can understand.
 		</div>
 		<div id="stage-2-3">
 			<h3> Python Grammar</h3>
 			<div class="info">
-				Grammar is very important since computers are stupid!  While humans can interpret things like "me hungry", computers can't.  So the language that is input as a command must follow specific rules, else what you expected to happen.....won't!
+				Grammar is very important since computers are stupid!  While humans can interpret things like "me hungry", computers can't.  
+				So the language that is input as a command must follow specific rules, else what you expected to happen.....won't!
 			</div>
 		</div>
 		<div id="stage-2-4">
@@ -324,7 +342,8 @@
 					<li>"Test".find("Te")--> 0 , because "Te" starts at position 0</li>
 					<li>you can also use variables instead of typing out &lt;string1&gt; or &lt;string2&gt;</li>
 					<li>every string begins with an "empty string" | empty string = ''</li>
-					<li>&lt;string1&gt;.find(&lt;string2&gt;,&lt;number&gt;), this tells find @ what position to start searching, which is useful for finding &lt;string2&gt; after the first time (or second...) it appears in &lt;string1&gt;</li>
+					<li>&lt;string1&gt;.find(&lt;string2&gt;,&lt;number&gt;), this tells find @ what position to start searching, which is useful for finding 
+						&lt;string2&gt; after the first time (or second...) it appears in &lt;string1&gt;</li>
 				</ul>	
 			</div>
 		</div>
@@ -454,7 +473,7 @@
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return b<br>
 					&nbsp;&nbsp;&nbsp;&nbsp;else:<br>
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return c<br>
-				</div>		
+				</div>						
 				<ul>
 					<li><span style="color:green">Example 4: </span>Defines a procedure that returns the bigger of a,b and c, but uses the "bigger" procedure.</li>
 				</ul>
@@ -601,7 +620,7 @@
 			        <li><b>Class</b> - A neatly packaged box that puts things together really well. A class is like a blueprint of a building - it can be used to build multiple buildings. A user-defined prototype for an object that defines a set of attributes that characterize any object of the class. The attributes are data members (class variables and instance variables) and methods, accessed via dot notation.</li>
 			        <li><b>Instance/Object</b> - A unique instance of a data structure that's defined by its class. An object comprises both data members (class variables and instance variables) and methods. An individual object of a certain class. An object obj that belongs to a class Circle, for example, is an instance of the class Circle.</li>
 			        <li><b>Module</b> - A module allows you to logically organize your Python code. Grouping related code into a module makes the code easier to understand and use. A module is a Python object with arbitrarily named attributes that you can bind and reference.  A module is a file consisting of Python code. A module can define functions, classes and variables. A module can also include runnable code.</li>
-			        <li><b>Library</b> - </li>	
+			        <li><b>Library</b> - A library is a collection of implementations of behavior, written in terms of a language, that has a well-defined interface by which the behavior is invoked. This means that as long as a higher level program uses a library to make system calls, it does not need to be re-written to implement those system calls over and over again. In addition, the behavior is provided for reuse by multiple independent programs. A program invokes the library-provided behavior via a mechanism of the language.</li>	
 			        <li><b>Constructor</b> - When an instance is created, the classes constructor is called (__init__)</li>
 			        <li><b>Self</b> - Used in the constructor, self is the instance and is always the first argument</li>
 			        <li><b>Instance Variable</b> - A variable associated with a specific instance</li>
